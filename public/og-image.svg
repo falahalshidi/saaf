@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- خلفية بيضاء -->
+  <rect width="1200" height="630" fill="#ffffff"/>
+  
+  <defs>
+    <linearGradient id="palmGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2e7d32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4caf50;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- اللوجو في المنتصف -->
+  <g transform="translate(600, 315)">
+    <g transform="scale(2)">
+      <!-- سعف النخيل -->
+      <path d="M-150 50 Q-50 -10 50 50 Q150 110 250 50" 
+            stroke="url(#palmGradient)" 
+            stroke-width="20" 
+            fill="none" 
+            stroke-linecap="round" 
+            stroke-linejoin="round"/>
+      
+      <!-- الأوراق -->
+      <path d="M-100 40 L-110 0 L-100 -20 L-90 0 Z" fill="url(#palmGradient)"/>
+      <path d="M-50 35 L-60 -5 L-50 -25 L-40 -5 Z" fill="url(#palmGradient)"/>
+      <path d="M0 30 L-10 -10 L0 -30 L10 -10 Z" fill="url(#palmGradient)"/>
+      <path d="M50 35 L40 -5 L50 -25 L60 -5 Z" fill="url(#palmGradient)"/>
+      <path d="M100 40 L90 0 L100 -20 L110 0 Z" fill="url(#palmGradient)"/>
+      
+      <!-- نجم أصفر -->
+      <polygon points="0,-80 8,-50 38,-50 15,-30 23,0 0,-20 -23,0 -15,-30 -38,-50 -8,-50" 
+               fill="#ffd700"/>
+    </g>
+    
+    <!-- النص -->
+    <text x="0" y="120" font-family="Arial, sans-serif" font-size="60" font-weight="bold" 
+          text-anchor="middle" fill="#2e7d32">سعف</text>
+    <text x="0" y="170" font-family="Arial, sans-serif" font-size="28" 
+          text-anchor="middle" fill="#666">نظام مراقبة سوسة النخيل</text>
+  </g>
+</svg>
+

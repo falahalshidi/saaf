@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="palmGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2e7d32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4caf50;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- خلفية دائرية -->
+  <circle cx="100" cy="100" r="95" fill="#ffffff"/>
+  
+  <!-- سعف النخيل -->
+  <path d="M30 140 Q70 100 100 130 Q130 160 170 140" 
+        stroke="url(#palmGradient)" 
+        stroke-width="8" 
+        fill="none" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- الأوراق -->
+  <path d="M50 135 L45 105 L50 90 L55 105 Z" fill="url(#palmGradient)"/>
+  <path d="M70 132 L65 102 L70 87 L75 102 Z" fill="url(#palmGradient)"/>
+  <path d="M90 130 L85 100 L90 85 L95 100 Z" fill="url(#palmGradient)"/>
+  <path d="M110 128 L105 98 L110 83 L115 98 Z" fill="url(#palmGradient)"/>
+  <path d="M130 130 L125 100 L130 85 L135 100 Z" fill="url(#palmGradient)"/>
+  <path d="M150 132 L145 102 L150 87 L155 102 Z" fill="url(#palmGradient)"/>
+  
+  <!-- نجم أصفر -->
+  <polygon points="100,50 105,70 125,70 110,80 115,100 100,90 85,100 90,80 75,70 95,70" 
+           fill="#ffd700"/>
+</svg>
+

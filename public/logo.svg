@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="palmGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <g opacity="0.4">
+    <!-- سعف النخيل الرئيسي -->
+    <path d="M80 320 Q150 240 250 300 Q350 360 420 320" 
+          stroke="url(#palmGradient)" 
+          stroke-width="12" 
+          fill="none" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- الأوراق على السعف -->
+    <path d="M120 310 L110 250 L120 215 L130 250 Z" fill="url(#palmGradient)"/>
+    <path d="M160 305 L150 245 L160 210 L170 245 Z" fill="url(#palmGradient)"/>
+    <path d="M200 300 L190 240 L200 205 L210 240 Z" fill="url(#palmGradient)"/>
+    <path d="M240 295 L230 235 L240 200 L250 235 Z" fill="url(#palmGradient)"/>
+    <path d="M280 300 L270 240 L280 205 L290 240 Z" fill="url(#palmGradient)"/>
+    <path d="M320 305 L310 245 L320 210 L330 245 Z" fill="url(#palmGradient)"/>
+    <path d="M360 310 L350 250 L360 215 L370 250 Z" fill="url(#palmGradient)"/>
+    
+    <!-- نجم أصفر -->
+    <polygon points="200,140 208,165 235,165 215,180 223,205 200,190 177,205 185,180 165,165 192,165" 
+             fill="#ffd700" 
+             opacity="0.85"/>
+  </g>
+</svg>
+
